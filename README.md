@@ -3,17 +3,17 @@ In this repository, I will write my journal to document and finish LABs from Por
 
 ---
 
-# 📖 Penjelasan
-SQL Injection (SQLi) adalah sebuah kerentanan *web security* di mana penyerang bisa melakukan injeksi atau menyisipkan kode berbahaya ke *endpoint* (seperti input form, parameter URL, atau HTTP *headers*) yang rentan menggunakan query dari bahasa SQL itu sendiri. 
+# 📖 Explanation
+SQL Injection (SQLi) is a web security vulnerability where an attacker can inject or insert malicious code into vulnerable endpoints (such as input forms, URL parameters, or HTTP headers) using queries from the SQL language itself. 
 
-Kerentanan ini umumnya terjadi karena aplikasi tidak melakukan validasi, *filtering*, atau *sanitasi* input dari pengguna secara memadai sebelum meneruskannya untuk dieksekusi oleh sistem *database backend* (seperti MySQL, PostgreSQL, Oracle, atau MSSQL).
+This vulnerability typically occurs because the application fails to properly validate, filter, or sanitize user input before passing it to be executed by the backend database system (such as MySQL, PostgreSQL, Oracle, or MSSQL).
 
 ---
 
-# 🎯 Apa saja yang bisa dilakukannya dan apa dampaknya?
-*Endpoint* yang rentan terhadap SQLi dan disusupi *payload* berbahaya oleh penyerang akan menyebabkan dampak fatal yang mengancam *Confidentiality, Integrity*, dan *Availability* (CIA) dari sebuah sistem. Berikut adalah beberapa hal yang bisa terjadi:
+# 🎯 What can it do and what is the impact?
+Vulnerable endpoints that are compromised with malicious payloads can lead to fatal consequences threatening the Confidentiality, Integrity, and Availability (CIA triad) of a system. Here are some of the potential impacts:
 
-1. **Mengekspos Data Sensitif (Confidentiality):** Penyerang dapat mengambil data pengguna lain, serta melihat isi data sensitif pada database sistem (seperti *password hash*, informasi finansial, atau data pribadi).
-2. **Bypass Autentikasi:** Penyerang dapat login ke akun orang lain, bahkan mengambil alih akun administrator, tanpa harus mengetahui *password* yang sebenarnya.
-3. **Memanipulasi Data (Integrity):** Tidak hanya membaca data, penyerang yang berhasil masuk juga dapat memodifikasi, menambahkan, atau menghapus data penting di dalam *database* (misalnya menghapus seluruh isi tabel).
-4. **Eksekusi Perintah Sistem (Remote Code Execution):** Pada beberapa kasus tingkat lanjut dengan konfigurasi *database* tertentu, penyerang tingkat tinggi dapat mengeksekusi perintah OS (sistem operasi) langsung ke dalam *server backend*, yang berujung pada pengambilalihan *server* secara penuh.
+1. **Exposing Sensitive Data (Confidentiality):** Attackers can retrieve other users' data and view sensitive information stored in the system's database (such as password hashes, financial information, or personal data).
+2. **Authentication Bypass:** Attackers can log into other users' accounts, or even take over an administrator account, without needing to know the actual password.
+3. **Data Manipulation (Integrity):** Beyond just reading data, an attacker who successfully breaches the system can also modify, add, or delete critical data within the database (for example, dropping entire tables).
+4. **System Command Execution (Remote Code Execution):** In advanced cases involving specific database configurations, sophisticated attackers can execute OS (Operating System) commands directly on the backend server, leading to a complete server takeover.
