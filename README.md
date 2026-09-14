@@ -4,7 +4,7 @@ Hey there! 👋 Welcome to my repo where I document my journey solving labs on t
 
 I created this space to keep track of my notes, tricks, and step-by-step write-ups on how I tackle various vulnerabilities. It's basically my personal learning trail to level up my skills in cybersecurity, pen testing, and bug hunting. Who knows, maybe grinding these labs will land me some sweet bounties on HackerOne or BugCrowd soon! 🚀
 
-## 🛠️ My Arsenal
+## 🛠️ Tools
 To keep the experiments running smoothly, here's the gear I usually use to crush these labs:
 * **Burp Suite** - The main weapon for intercepting, tampering, and messing around with requests.
 * **Browser** - Firefox or Chrome, heavily equipped with FoxyProxy to easily route traffic through Burp.
