@@ -1,7 +1,7 @@
 # 📝 Lab: SQL injection attack, listing the database contents on Oracle
 
-- **Vulnerability:** SQL Injection
-- **Difficulty:** Practitioner
+- **Vulnerability:** SQL Injection.
+- **Difficulty:** PRACTITIONER.
 - **Objective:** Log in as the administrator.
 
 ---
