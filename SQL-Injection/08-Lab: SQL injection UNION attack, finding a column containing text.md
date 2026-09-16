@@ -1,7 +1,7 @@
 # 📝 Lab: SQL injection UNION attack, finding a column containing text
 
-- **Vulnerability:** SQL Injection
-- **Difficulty:** Apprentice
+- **Vulnerability:** SQL Injection.
+- **Difficulty:** PRACTITIONER.
 - **Objective:** Find a column that accepts text (string) data and output a specific random string provided by the lab.
 
 ---
