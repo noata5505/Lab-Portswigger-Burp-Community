@@ -1,7 +1,7 @@
 # 📝 Lab: SQL injection UNION attack, determining the number of columns returned by the query
 
-- **Vulnerability:** SQL Injection
-- **Difficulty:** Apprentice
+- **Vulnerability:** SQL Injection.
+- **Difficulty:** PRACTITIONER.
 - **Objective:** Determine the exact number of columns returned by the original query.
 
 ---
