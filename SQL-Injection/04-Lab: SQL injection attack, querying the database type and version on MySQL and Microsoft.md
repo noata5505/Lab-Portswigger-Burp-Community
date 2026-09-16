@@ -1,7 +1,7 @@
 # 📝 Lab: SQL injection attack, querying the database type and version on MySQL and Microsoft
 
 - **Vulnerability:** SQL Injection.
-- **Difficulty:** Apprentice.
+- **Difficulty:** PRACTITIONER.
 - **Objective:** Find out the database type and its exact version.
 
 ---
