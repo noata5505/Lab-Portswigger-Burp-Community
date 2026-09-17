@@ -21,6 +21,52 @@
 
 ---
 
+
+## ⚠️ Disclaimer
+
+> **This repository is for EDUCATIONAL PURPOSES ONLY.** 📚
+
+The information provided here is meant to help developers, security researchers, and students understand SQL Injection vulnerabilities and how to prevent them. 
+
+### 📌 Important Notes:
+
+- **DO NOT** use the techniques described here to attack systems you don't own or have explicit permission to test
+- **DO NOT** use this knowledge for illegal activities or malicious purposes
+- **ALWAYS** test in controlled environments (local labs, VMs, or authorized bug bounty programs)
+- **RESPECT** laws and regulations in your country regarding cybersecurity and computer crime
+
+### 🛡️ Responsible Use:
+
+| ✅ Do | ❌ Don't |
+|-------|----------|
+| Learn to protect your own apps | Attack websites without permission |
+| Practice on legal labs (DVWA, HackTheBox) | Use sqlmap on production sites |
+| Report vulnerabilities responsibly | Exploit bugs for personal gain |
+| Share knowledge ethically | Teach others how to hack illegally |
+
+### ⚖️ Legal Notice:
+
+Unauthorized access to computer systems is **illegal** in most jurisdictions and can result in:
+- Criminal charges
+- Heavy fines
+- Imprisonment
+- Civil lawsuits
+
+**You are solely responsible for your actions.** The authors and contributors of this repository are not liable for any misuse of the information provided.
+
+### 🎯 Intended Audience:
+
+- Web developers learning secure coding
+- Security researchers and bug bounty hunters
+- Students studying cybersecurity
+- Anyone interested in understanding web vulnerabilities
+
+**If you're not sure if something is legal, DON'T DO IT.** When in doubt, get written permission first. 📝
+
+Stay ethical, stay legal, stay safe. 🙏
+
+---
+
 ## 📚 Table of Contents
 
 - [What is SQL Injection?](#-what-is-sql-injection)
@@ -224,51 +270,6 @@ db.query(`SELECT * FROM users WHERE email = '${email}'`)
 ### Tools Documentation
 - [sqlmap GitHub](https://github.com/sqlmapproject/sqlmap)
 - [Burp Suite Docs](https://portswigger.net/burp/documentation)
-
----
-
-## ⚠️ Disclaimer
-
-> **This repository is for EDUCATIONAL PURPOSES ONLY.** 📚
-
-The information provided here is meant to help developers, security researchers, and students understand SQL Injection vulnerabilities and how to prevent them. 
-
-### 📌 Important Notes:
-
-- **DO NOT** use the techniques described here to attack systems you don't own or have explicit permission to test
-- **DO NOT** use this knowledge for illegal activities or malicious purposes
-- **ALWAYS** test in controlled environments (local labs, VMs, or authorized bug bounty programs)
-- **RESPECT** laws and regulations in your country regarding cybersecurity and computer crime
-
-### 🛡️ Responsible Use:
-
-| ✅ Do | ❌ Don't |
-|-------|----------|
-| Learn to protect your own apps | Attack websites without permission |
-| Practice on legal labs (DVWA, HackTheBox) | Use sqlmap on production sites |
-| Report vulnerabilities responsibly | Exploit bugs for personal gain |
-| Share knowledge ethically | Teach others how to hack illegally |
-
-### ⚖️ Legal Notice:
-
-Unauthorized access to computer systems is **illegal** in most jurisdictions and can result in:
-- Criminal charges
-- Heavy fines
-- Imprisonment
-- Civil lawsuits
-
-**You are solely responsible for your actions.** The authors and contributors of this repository are not liable for any misuse of the information provided.
-
-### 🎯 Intended Audience:
-
-- Web developers learning secure coding
-- Security researchers and bug bounty hunters
-- Students studying cybersecurity
-- Anyone interested in understanding web vulnerabilities
-
-**If you're not sure if something is legal, DON'T DO IT.** When in doubt, get written permission first. 📝
-
-Stay ethical, stay legal, stay safe. 🙏
 
 ---
 
