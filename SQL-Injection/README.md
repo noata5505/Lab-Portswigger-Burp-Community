@@ -1,3 +1,8 @@
+
+# 🛡️ SQL Injection (SQLi)
+
+> 💉 **What's SQLi?** It's when attackers sneak malicious SQL code into your database queries through user inputs. Basically, they trick your app into running commands it shouldn't.
+
 ## 🧰 Security Stack
 
 <p align="left">
@@ -13,10 +18,6 @@
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"/>
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
 </p>
-
-# 🛡️ SQL Injection (SQLi)
-
-> 💉 **What's SQLi?** It's when attackers sneak malicious SQL code into your database queries through user inputs. Basically, they trick your app into running commands it shouldn't.
 
 ---
 
