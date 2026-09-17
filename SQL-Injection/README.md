@@ -1,3 +1,19 @@
+## 🧰 Security Stack
+
+<p align="left">
+  <img src="https://img.shields.io/badge/SQL-000000?style=for-the-badge&logo=databricks&logoColor=white" alt="SQL"/>
+  <img src="https://img.shields.io/badge/SQL%20Injection-Basics-b91c1c?style=for-the-badge&logo=hackthebox&logoColor=white" alt="SQL Injection"/>
+  <img src="https://img.shields.io/badge/Burp%20Suite-ff6633?style=for-the-badge&logo=burpsuite&logoColor=white" alt="Burp Suite"/>
+  <img src="https://img.shields.io/badge/OWASP%20ZAP-00549e?style=for-the-badge&logo=owasp&logoColor=white" alt="OWASP ZAP"/>
+  <img src="https://img.shields.io/badge/sqlmap-111111?style=for-the-badge&logo=linux&logoColor=white" alt="sqlmap"/>
+  <img src="https://img.shields.io/badge/HTTP-005571?style=for-the-badge&logo=httpie&logoColor=white" alt="HTTP"/>
+  <img src="https://img.shields.io/badge/Web%20Security-6f42c1?style=for-the-badge&logo=security&logoColor=white" alt="Web Security"/>
+  <img src="https://img.shields.io/badge/OWASP-000000?style=for-the-badge&logo=owasp&logoColor=white" alt="OWASP"/>
+  <img src="https://img.shields.io/badge/DVWA-8B0000?style=for-the-badge&logo=php&logoColor=white" alt="DVWA"/>
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"/>
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+</p>
+
 # 🛡️ SQL Injection (SQLi)
 
 > 💉 **What's SQLi?** It's when attackers sneak malicious SQL code into your database queries through user inputs. Basically, they trick your app into running commands it shouldn't.
